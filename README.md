@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 ## 2. Workflow collaboration 
-Pull Latest Changes:   
+### Pull Latest Changes:   
 Before starting, update your local repository:
 ```
 git pull origin main
@@ -45,7 +45,7 @@ Push your branch to GitHub:
 git push origin feature-branch-name   
 ```
 ---
-
+---
 
 ---
 ---
