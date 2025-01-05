@@ -42,9 +42,12 @@ git commit -m "Description of changes"
 ### Push the Branch:
 Push your branch to GitHub:
 ```
-git push origin feature-branch-name
+git push origin feature-branch-name   
 ```
+---
 
+
+---
 ---
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
