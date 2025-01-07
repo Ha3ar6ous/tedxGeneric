@@ -9,8 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        tedRed: '#E62B1E',
+        lightRed: '#EF233C',
+        black: '#000000',
+        white: '#FFFFFF',
+        charcoalGrey: '#333333',
+        lightGrey: '#F5F5F5',
+        silver: '#BDBDBD',
+      },
+      animation: {
+        pulse: 'pulse 3s infinite',
+        bounce: 'bounce 2s infinite',
       },
     },
   },
