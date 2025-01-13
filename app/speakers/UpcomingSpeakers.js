@@ -11,7 +11,6 @@ const speakers = [
         image: '/images/speaker1.png',
         social: {
             instagram: 'https://www.instagram.com/johndoe',
-            twitter: 'https://www.twitter.com/johndoe',
             linkedin: 'https://www.linkedin.com/in/johndoe',
         },
         location: 'San Francisco, CA',
@@ -23,7 +22,6 @@ const speakers = [
         image: '/images/speaker2.png', // Replace with your speaker image
         social: {
             instagram: 'https://www.instagram.com/janesmith',
-            twitter: 'https://www.twitter.com/janesmith',
             linkedin: 'https://www.linkedin.com/in/janesmith'
         },
         location: 'New York, NY'
@@ -35,12 +33,10 @@ const speakers = [
         image: '/images/speaker3.png', // Replace with your speaker image
         social: {
             instagram: 'https://www.instagram.com/janesmith',
-            twitter: 'https://www.twitter.com/janesmith',
             linkedin: 'https://www.linkedin.com/in/janesmith'
-        },
-        location: 'New York, NY'
+        }
     },
-    // Add more speakers...
+   
 ];
 const pastSpeakers = [
     {
@@ -50,7 +46,6 @@ const pastSpeakers = [
         image: "/images/speaker1.png", // Replace with the image path
         social: {
             instagram: "https://instagram.com/alicejohnson",
-            twitter: "https://twitter.com/alicejohnson",
             linkedin: "https://linkedin.com/in/alicejohnson",
         },
     },
@@ -61,7 +56,6 @@ const pastSpeakers = [
         image: "/images/speaker1.png", // Replace with the image path
         social: {
             instagram: "https://instagram.com/ethancole",
-            twitter: "https://twitter.com/ethancole",
             linkedin: "https://linkedin.com/in/ethancole",
         },
     },
@@ -72,7 +66,96 @@ const pastSpeakers = [
         image: "/images/speaker1.png", // Replace with the image path
         social: {
             instagram: "https://instagram.com/sophiawhite",
-            twitter: "https://twitter.com/sophiawhite",
+            linkedin: "https://linkedin.com/in/sophiawhite",
+        },
+    },
+    {
+        name: "Alice Johnson",
+        title: "Human Rights Activist",
+        bio: "Alice has championed human rights and social justice globally for over a decade.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/alicejohnson",
+            linkedin: "https://linkedin.com/in/alicejohnson",
+        },
+    },
+    {
+        name: "Dr. Ethan Cole",
+        title: "AI Researcher",
+        bio: "Ethan is a pioneer in artificial intelligence, exploring ethical AI development.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/ethancole",
+            linkedin: "https://linkedin.com/in/ethancole",
+        },
+    },
+    {
+        name: "Sophia White",
+        title: "Entrepreneur & Author",
+        bio: "Sophia's journey from startup struggles to success inspires budding entrepreneurs.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/sophiawhite",
+            linkedin: "https://linkedin.com/in/sophiawhite",
+        },
+    },
+    {
+        name: "Alice Johnson",
+        title: "Human Rights Activist",
+        bio: "Alice has championed human rights and social justice globally for over a decade.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/alicejohnson",
+            linkedin: "https://linkedin.com/in/alicejohnson",
+        },
+    },
+    {
+        name: "Dr. Ethan Cole",
+        title: "AI Researcher",
+        bio: "Ethan is a pioneer in artificial intelligence, exploring ethical AI development.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/ethancole",
+            linkedin: "https://linkedin.com/in/ethancole",
+        },
+    },
+    {
+        name: "Sophia White",
+        title: "Entrepreneur & Author",
+        bio: "Sophia's journey from startup struggles to success inspires budding entrepreneurs.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/sophiawhite",
+            linkedin: "https://linkedin.com/in/sophiawhite",
+        },
+    },
+    {
+        name: "Alice Johnson",
+        title: "Human Rights Activist",
+        bio: "Alice has championed human rights and social justice globally for over a decade.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/alicejohnson",
+            linkedin: "https://linkedin.com/in/alicejohnson",
+        },
+    },
+    {
+        name: "Dr. Ethan Cole",
+        title: "AI Researcher",
+        bio: "Ethan is a pioneer in artificial intelligence, exploring ethical AI development.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/ethancole",
+            linkedin: "https://linkedin.com/in/ethancole",
+        },
+    },
+    {
+        name: "Sophia White",
+        title: "Entrepreneur & Author",
+        bio: "Sophia's journey from startup struggles to success inspires budding entrepreneurs.",
+        image: "/images/speaker1.png", // Replace with the image path
+        social: {
+            instagram: "https://instagram.com/sophiawhite",
             linkedin: "https://linkedin.com/in/sophiawhite",
         },
     },
@@ -95,15 +178,12 @@ const UpcomingSpeakers = () => {
             </header>
 
             {/* Filters Section */}
-            <section className="py-8 px-6 bg-gray-800">
+            <section className="relative bg-gradient-to-r from-gray-800 to-gray-900 py-20 px-6 text-center">
                 <div className="flex justify-between items-center max-w-screen-xl mx-auto">
-                    <h2 className="text-3xl font-semibold">Browse Speakers</h2>
-                    <button className="flex items-center space-x-2 bg-red-600 hover:bg-red-500 px-4 py-2 rounded text-white">
-                        <FaFilter />
-                        <span>Filter</span>
-                    </button>
+                    <h2 className="text-3xl font-semibold">Recent Speakers</h2>
                 </div>
             </section>
+
 
             {/* Speakers Section */}
             <section className="py-16 px-6">
@@ -126,7 +206,6 @@ const UpcomingSpeakers = () => {
                                 <p className="text-sm text-gray-500 mb-4">{speaker.bio.replace("'", "&#39;")}</p>
                                 <div className="flex items-center text-gray-400 mb-4">
                                     <MdLocationOn className="mr-2" />
-                                    <span>{speaker.location}</span>
                                 </div>
                                 <div className="flex space-x-4">
                                     <a
@@ -137,14 +216,7 @@ const UpcomingSpeakers = () => {
                                     >
                                         <AiOutlineInstagram className="text-2xl" />
                                     </a>
-                                    <a
-                                        href={speaker.social.twitter}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-blue-400 hover:text-blue-300 transition-transform transform hover:scale-110"
-                                    >
-                                        <AiOutlineTwitter className="text-2xl" />
-                                    </a>
+                                    
                                     <a
                                         href={speaker.social.linkedin}
                                         target="_blank"
@@ -202,12 +274,7 @@ const UpcomingSpeakers = () => {
                                     >
                                         <FaLinkedin size={20} />
                                     </a>
-                                    <a
-                                        href={speaker.social.twitter}
-                                        className="text-blue-400 hover:text-blue-300"
-                                    >
-                                        <FaTwitter size={20} />
-                                    </a>
+                                    
                                     <a
                                         href={speaker.social.instagram}
                                         className="text-pink-500 hover:text-pink-400"
