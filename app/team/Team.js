@@ -5,33 +5,81 @@ const teamMembers = [
     {
         name: "John Doe",
         role: "Event Coordinator",
-        bio: "John is responsible for organizing and managing TEDx events, ensuring everything runs smoothly.",
-        image: "/images/john.png", // Replace with the image path
+        image: "/images/speaker2.png", // Replace with the image path
         social: {
             linkedin: "https://linkedin.com/in/johndoe",
-            twitter: "https://twitter.com/johndoe",
             instagram: "https://instagram.com/johndoe",
         },
     },
     {
         name: "Jane Smith",
         role: "Content Manager",
-        bio: "Jane creates and curates compelling content to ensure our talks resonate with the audience.",
-        image: "/images/jane.png", // Replace with the image path
+        image: "/images/speaker2.png", // Replace with the image path
         social: {
             linkedin: "https://linkedin.com/in/janesmith",
-            twitter: "https://twitter.com/janesmith",
             instagram: "https://instagram.com/janesmith",
         },
     },
     {
         name: "Alice Johnson",
         role: "Marketing Lead",
-        bio: "Alice develops innovative strategies to promote TEDx College, ensuring maximum impact.",
-        image: "/images/alice.png", // Replace with the image path
+        image: "/images/speaker2.png", // Replace with the image path
         social: {
             linkedin: "https://linkedin.com/in/alicejohnson",
-            twitter: "https://twitter.com/alicejohnson",
+            instagram: "https://instagram.com/alicejohnson",
+        },
+    },
+    {
+        name: "John Doe",
+        role: "Event Coordinator",
+        image: "/images/speaker2.png", // Replace with the image path
+        social: {
+            linkedin: "https://linkedin.com/in/johndoe",
+            instagram: "https://instagram.com/johndoe",
+        },
+    },
+    {
+        name: "Jane Smith",
+        role: "Content Manager",
+        image: "/images/speaker2.png", // Replace with the image path
+        social: {
+            linkedin: "https://linkedin.com/in/janesmith",
+            instagram: "https://instagram.com/janesmith",
+        },
+    },
+    {
+        name: "Alice Johnson",
+        role: "Marketing Lead",
+        image: "/images/speaker2.png", // Replace with the image path
+        social: {
+            linkedin: "https://linkedin.com/in/alicejohnson",
+            instagram: "https://instagram.com/alicejohnson",
+        },
+    },
+    {
+        name: "John Doe",
+        role: "Event Coordinator",
+        image: "/images/speaker2.png", // Replace with the image path
+        social: {
+            linkedin: "https://linkedin.com/in/johndoe",
+            instagram: "https://instagram.com/johndoe",
+        },
+    },
+    {
+        name: "Jane Smith",
+        role: "Content Manager",
+        image: "/images/speaker2.png", // Replace with the image path
+        social: {
+            linkedin: "https://linkedin.com/in/janesmith",
+            instagram: "https://instagram.com/janesmith",
+        },
+    },
+    {
+        name: "Alice Johnson",
+        role: "Marketing Lead",
+        image: "/images/speaker2.png", // Replace with the image path
+        social: {
+            linkedin: "https://linkedin.com/in/alicejohnson",
             instagram: "https://instagram.com/alicejohnson",
         },
     },
@@ -45,12 +93,15 @@ const Team = () => {
                 <h1 className="text-5xl font-bold animate__animated animate__fadeInDown">
                     Meet the TEDx College Team
                 </h1>
-                <p className="text-lg mt-4 text-gray-400 animate__animated animate__fadeInUp">
-                    A group of passionate individuals working together to bring inspiring ideas to life.
+                <p className="text-lg mt-4 text-gray-300 animate__animated animate__fadeInUp">
+                    Passionate individuals dedicated to bringing ideas to life and inspiring the community.
                 </p>
-                <button className="mt-8 px-8 py-3 bg-red-600 hover:bg-red-500 rounded-md text-lg font-medium transition transform hover:scale-105 animate__animated animate__fadeIn">
-                    Join Our Team
-                </button>
+                <p className="text-lg mt-4 text-gray-300 animate__animated animate__fadeInUp">
+                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon. Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon. Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon. Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon. Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                </p>
             </header>
 
             {/* Team Members Section */}
@@ -71,19 +122,12 @@ const Team = () => {
                             />
                             <h3 className="text-xl font-bold text-center">{member.name}</h3>
                             <p className="text-sm text-center text-gray-600">{member.role}</p>
-                            <p className="text-center mt-4 text-gray-700">{member.bio}</p>
                             <div className="flex justify-center mt-4 space-x-4">
                                 <a
                                     href={member.social.linkedin}
                                     className="text-blue-500 hover:text-blue-400"
                                 >
                                     <FaLinkedin size={20} />
-                                </a>
-                                <a
-                                    href={member.social.twitter}
-                                    className="text-blue-400 hover:text-blue-300"
-                                >
-                                    <FaTwitter size={20} />
                                 </a>
                                 <a
                                     href={member.social.instagram}
