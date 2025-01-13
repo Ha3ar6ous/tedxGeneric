@@ -170,11 +170,14 @@ const UpcomingSpeakers = () => {
                     Meet Our Upcoming Speakers
                 </h1>
                 <p className="text-lg mt-4 text-gray-300 animate__animated animate__fadeInUp">
-                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                    Passionate individuals dedicated to bringing ideas to life and inspiring the community.
                 </p>
-                <button className="mt-8 px-8 py-3 bg-red-600 hover:bg-red-500 rounded-md text-lg font-medium transition transform hover:scale-105 animate__animated animate__fadeIn">
-                    Sign Up for Updates
-                </button>
+                <p className="text-lg mt-4 text-gray-300 animate__animated animate__fadeInUp">
+                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon. Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon. Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon. Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                    Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon. Be inspired by innovators, creators, and leaders shaping the future&#39;s horizon.
+                </p>
             </header>
 
             {/* Filters Section */}
